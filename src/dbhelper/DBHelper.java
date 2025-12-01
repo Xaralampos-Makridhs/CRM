@@ -5,7 +5,7 @@ import java.sql.SQLException;
 public class DBHelper {
     private static final String DB_URL="jdbc:mysql://localhost:3306/crm_db";
     private static final String USER="root";
-    private static final String PASS="xm180605";
+    private static final String PASS=""; //use your personal password
 
     public static Connection getConnection() throws SQLException{
         return DriverManager.getConnection(DB_URL,USER,PASS);
